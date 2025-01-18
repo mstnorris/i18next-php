@@ -58,6 +58,14 @@ class I18n {
      * @var array
      */
     public $getResource;
+    public $addResource;
+    public $addResources;
+    public $addResourceBundle;
+    public $removeResourceBundle;
+    public $hasResourceBundle;
+    public $getResourceBundle;
+    public $getDataByLanguage;
+
     /**
      * Instance options
      *
