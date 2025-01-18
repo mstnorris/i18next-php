@@ -250,7 +250,7 @@ class ResourceStore implements \JsonSerializable {
     /**
      * @inheritDoc
      */
-    public function jsonSerialize() {
+    public function jsonSerialize(): mixed {
         return $this->_data ?? [];
     }
 }
