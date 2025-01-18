@@ -57,6 +57,12 @@ class I18n {
      *
      * @var array
      */
+    public $getResource;
+    /**
+     * Instance options
+     *
+     * @var array
+     */
     protected $_options                         =   [];
 
     /**
